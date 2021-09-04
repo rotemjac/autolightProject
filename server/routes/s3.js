@@ -3,8 +3,8 @@ const fs = require('fs');
 const S3 = require('aws-sdk/clients/s3')
 const bucketName = process.env.AWS_BUCKET_NAME = "autolight-bucket";
 const region = process.env.AWS_BUCKET_REGION = "us-east-1";
-const accessKeyId = process.env.AWS_ACCESS_KEY = "AKIA4CNNTWIMY2FQWQ4K"
-const secretAccessKey = process.env.AWS_SECRET_KEY = "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"
+const accessKeyId = process.env.AWS_ACCESS_KEY = ""
+const secretAccessKey = process.env.AWS_SECRET_KEY = ""
 
 const s3 = new S3({
     region,
