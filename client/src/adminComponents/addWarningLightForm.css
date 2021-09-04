@@ -1,0 +1,220 @@
+.img-field {
+    border: none;
+}
+
+.submit-add-light {
+    width: revert;
+    height: revert;
+    margin-left: 5px;
+    margin-top: 20px !important;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #1abc9c !important;
+    padding: 1px 10px;
+    fontSize: 14px;
+    position: center;
+}
+
+.radioBtn {
+    width: revert;
+    height: revert;
+}
+
+.add-form {
+    width: fit-content;
+    /* min-width: 420px;
+    max-width: 1000px; */
+
+    margin: 10px auto;
+    padding: 20px;
+    /* background: #c0c0c0; */
+    background: white;
+    border-radius: 8px;
+}
+
+.add-form input[type="number"] {
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 15px;
+}
+
+.add-form input[type="text"]:focus,
+.add-form input[type="number"]:focus,
+.add-form textarea:focus {
+    background: white;
+}
+
+.add-form input[type="submit"] {
+    position: relative;
+    top: 5px;
+    display: block;
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+}
+
+/*.submit-add-light{*/
+/*    position: relative;*/
+/*    top: 5px;*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    font-size: 18px;*/
+/*    text-align: center;*/
+/*    font-style: normal;*/
+/*    width: 100%;*/
+/*    border: 1px solid #16a085;*/
+/*    border-width: 1px 1px 3px;*/
+/*}*/
+
+
+.submit-add-light:hover {
+    cursor: pointer;
+}
+
+label {
+    /* color: white; */
+    padding: 5px;
+}
+
+.text-area {
+    width: 200px;
+    height: 50px;
+}
+
+.text-area-label {
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -50px;
+    margin-right: 5px;
+}
+
+.default {
+    all: revert;
+}
+
+.explanation {
+    position: relative;
+    left: 37px;
+}
+
+.headline {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.add-form input[type="checkbox"] {
+    height: revert;
+    width: revert;
+    position: relative;
+    top: 2px;
+}
+
+.text-field {
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: 0;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin: 1px auto 15px;
+}
+
+.upload-button {
+    /* position: relative; */
+    left: 5px;
+    /* border-radius: 10px;
+    padding: 1px 10px;
+    font-size: 14px; */
+    margin-right: 10px !important;
+}
+
+.upload-button-icon {
+    margin-left: 10px;
+}
+
+.upload-button-input {
+    /*
+    padding: none !important;
+    */
+}
+
+.add-form [type="file"] {
+    opacity: 0;
+}
+
+.add-form [type="file"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.Accordion {
+    position: relative !important;
+    top: 25px;
+    margin-bottom: 50px;
+}
+
+.AccordionSummary {
+    border-color: rgb(145, 144, 144) !important;
+    border-width: 1px !important;
+    border-radius: 0.5rem !important;
+    background-color: #00987942 !important;
+    height: 48px !important;
+    min-height: 48px !important;
+}
+
+.AcordHeader {
+    font-weight: bold;
+}
+
+.addNewLight {
+    flex-grow: 1;
+}
+
+.colorLbl {
+    padding: 5px !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 0.97rem !important;
+}
+
+.closeBtn {
+    margin-right: -1px !important;
+    margin-left: auto !important;
+    display: flex !important;
+    color: gray;
+}

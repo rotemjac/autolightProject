@@ -1,0 +1,82 @@
+input {
+    width: 5px;
+    height: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    border-radius: 0.5rem;
+}
+
+.img-field {
+    visibility: hidden;
+
+}
+
+.img-field:hover {
+    cursor: pointer;
+}
+
+.cell {
+    height: fit-content;
+    width: 250px;
+}
+
+.text-area-field {
+    height: 100px;
+    padding: 1rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+}
+
+.textField {
+    width: 90px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.icon:hover {
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    background: rgba(243, 243, 243, 0.959);
+}
+
+.icon {
+    border-radius: 0.5rem;
+    margin: 1rem;
+    color: rgb(54, 184, 145);
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+}
+
+.severity {
+    width: 30px;
+}
+
+.editIcons {
+    border-radius: 10px !important;
+}

@@ -1,23 +1,27 @@
-// server/index.js
-const path = require('path');
+const http = require("http");
 const express = require("express");
+const app = express();
+// import bodyParser from 'body-parser';
+const bodyParser = require('body-parser');
 
 const PORT = process.env.PORT || 3001;
+const warningLights = require('./routes/warningLightsRoute');
+const signinRoute = require('./routes/signinRoute');
+const registerRoute = require('./routes/registerRoute');
+const identifyWarningLightsInDashboardRoute = require('./routes/identifyWarningLightsInDashboardRoute');
+const favoritesRoute = require('./routes/favoritesRoute');
 
-const app = express();
+// parse requests of content-type - application/json
+app.use(bodyParser.json());
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({extended: true}));
 
-// Have Node serve the files for our built React app
-app.use(express.static(path.resolve(__dirname, '../client/build')));
-
-app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
-});
-
-// All other GET requests not handled before will return our React app
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
-});
+app.use('/api/products', warningLights);
+app.use('/api/userSignin', signinRoute);
+app.use('/api/userRegister', registerRoute);
+app.use('/api/identifyWarningLightsInDashboard', identifyWarningLightsInDashboardRoute);
+app.use('/api/favorites', favoritesRoute);
 
 app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
+    console.log(`http://localhost:${PORT}`);
 });

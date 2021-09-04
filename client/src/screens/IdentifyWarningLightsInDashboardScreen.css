@@ -1,0 +1,92 @@
+.paper {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    margin-top: 1px;
+}
+
+.submit {
+    background-color: rgb(5, 43, 112) !important;
+}
+
+.submit:hover {
+    background-color: rgb(49, 90, 165) !important;
+}
+
+.backdrop {
+    z-index: 1251 !important;
+    color: #ffffff;
+}
+
+.error {
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.okBtn {
+    margin: auto;
+    display: flex;
+}
+
+.DropzoneArea {
+    width: 70%;
+}
+
+.gridRoot {
+    flex-grow: 1;
+    justify-content: center;
+    margin: 20px !important;
+}
+
+.gridItem {
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: center;
+}
+
+.inputRoot {
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+.labelRoot {
+    font-size: 22px !important;
+    width: 400px !important;
+}
+
+.labelRoot:focus {
+    color: blue;
+}
+
+.underline {
+    width: 260px !important;
+}
+
+.dropRoot {
+    justify-content: center;
+}
+
+.dropText, .MuiDropzoneArea-icon {
+    color: grey !important;
+}
+
+.progressText {
+    margin-top: 100px;
+    color: white;
+}
+
+.MuiGrid-grid-xs-4 {
+    max-width: 100% !important;
+}
+
+.dropImgCon {
+    max-width: 80%;
+    flex-basis: 80%;
+}

@@ -1,0 +1,69 @@
+.logo {
+    height: 50px;
+    width: 95px;
+}
+
+.logoBtn {
+    height: 55px;
+    width: 95px;
+    margin-right: 20px !important;
+}
+
+.root {
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.logoButton {
+    margin-left: -12px;
+    margin-right: 20px;
+}
+
+.userName {
+    margin-left: 10px;
+}
+
+.rightToolbar {
+    display: flex;
+    margin-left: auto;
+    margin-right: -1px;
+}
+
+.drawerListIcons {
+    margin-right: 10px;
+    color: grey;
+}
+
+.drawerListIconsChoosen {
+    margin-right: 10px;
+    color: rgb(5, 43, 112);
+}
+
+.drawerListText {
+    color: grey;
+}
+
+.drawerListTextChoosen {
+    color: rgb(5, 43, 112);
+}
+
+.appBarBtn {
+    color: white;
+}
+
+.aboveDrawer {
+    z-index: 1251 !important;
+    background-color: rgb(5, 43, 112) !important;
+}
+
+.drawerItem:hover {
+    background-color: rgb(229, 243, 248) !important;
+    justify-content: center !important;
+    /* width: 95% !important; */
+}
+
+.drawerItemChoosen {
+    background-color: rgb(169, 223, 245) !important;
+    justify-content: center !important;
+    /* width: 95% !important; */
+}
